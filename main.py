@@ -35,8 +35,7 @@ def main():
     parser.add_argument('--nsamples', type=int, default=128, help='Number of calibration samples.')
     parser.add_argument('--seqlen', type=int, default=2048, help='Sequence length')
     parser.add_argument('--sparsity_ratio', type=float, default=0.5, help='Sparsity level')
-    parser.add_argument("--sparsity_type", type=str, default="unstructured", help="Sparsity type, choose from unstructured")
-    parser.add_argument("--prune_method", type=str, choices=["z_pruner"])
+    parser.add_argument("--sparsity_type", type=str, default="unstructured")
     parser.add_argument("--cache_dir", default="llm_weights", type=str)
     parser.add_argument("--eval_zero_shot", action="store_true", help="zero-shot performance")
     parser.add_argument("--a", type=float, default=0.5, help="exponent of activation")
@@ -45,12 +44,12 @@ def main():
     parser.add_argument("--lsa", action="store_true", help="Linear Sum Assignment")
     parser.add_argument("--importance_score", type=str, default="sum", help="assign importance score for columns")
     parser.add_argument("--gptq", action="store_true", help="use gptq or not")
-    parser.add_argument("--per_outneuron", action="store_true", help="pruning per outneuron. Wanda's tactic.")
+    parser.add_argument("--per_outneuron", action="store_true", help="pruning per outneuron.")
     parser.add_argument("--test_bs", type=int, default=1, help="test batch size")
     parser.add_argument("--use_cusparselt", action="store_true")
     parser.add_argument("--layer_wise", action="store_true")
-
     parser.add_argument("--fast", action="store_true")
+
     args = parser.parse_args()
     
     if args.use_cusparselt:
