@@ -2,7 +2,7 @@
 # Z-Pruner: Post-Training Pruning of Large Language Models for Efficiency without Retraining
 
 **Official implementation of the paper:**
-📄 *Z-Pruner: Post-Training Pruning of Large Language Models for Efficiency without Retraining*
+ *Z-Pruner: Post-Training Pruning of Large Language Models for Efficiency without Retraining*
 Accepted at **AICCSA 2025**
 
 ---
