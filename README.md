@@ -112,7 +112,8 @@ If you use this work, please cite:
   title={Z-Pruner: Post-Training Pruning of Large Language Models for Efficiency without Retraining},
   author={Samiul Basir Bhuiyan, MD Sazzad Hossain Adib, Mohammed Aman Bhuiyan, Muhammad Rafsan Kabir, Moshiur Farazi, Shafin Rahman and Nabeel Mohammed},
   booktitle={Proceedings of the ACS/IEEE International Conference on Computer Systems and Applications (AICCSA)},
-  year={2025}
+  year={2025},
+  institution = {North South University and University of Doha for Science and Technology}
 }
 ```
 
