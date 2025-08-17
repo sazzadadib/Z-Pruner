@@ -110,8 +110,7 @@ If you use this work, please cite:
 ```bibtex
 @inproceedings{zpruner2025,
   title={Z-Pruner: Post-Training Pruning of Large Language Models for Efficiency without Retraining},
-  author={Samiul Basir Bhuiyan, MD Sazzad Hossain Adib, Mohammed Aman Bhuiyan, Muhammad Rafsan Kabir,
-Moshiur Farazi, Shafin Rahman and Nabeel Mohammed},
+  author={Samiul Basir Bhuiyan, MD Sazzad Hossain Adib, Mohammed Aman Bhuiyan, Muhammad Rafsan Kabir, Moshiur Farazi, Shafin Rahman and Nabeel Mohammed},
   booktitle={Proceedings of the ACS/IEEE International Conference on Computer Systems and Applications (AICCSA)},
   year={2025}
 }
