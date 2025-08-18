@@ -4,7 +4,7 @@
 **Official implementation of the paper:**
  *Z-Pruner: Post-Training Pruning of Large Language Models for Efficiency without Retraining*
 Accepted at **AICCSA 2025**
-
+![alt text](https://github.com/sazzadadib/Z-Pruner/blob/main/Architecture%20Design.png?raw=true)
 ---
 
 ## Overview
