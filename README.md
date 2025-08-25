@@ -111,12 +111,14 @@ Follow the installation guide for the [lm-evaluation-harness](https://github.com
 If you use this work, please cite:
 
 ```bibtex
-@inproceedings{zpruner2025,
-  title={Z-Pruner: Post-Training Pruning of Large Language Models for Efficiency without Retraining},
-  author={Samiul Basir Bhuiyan, MD Sazzad Hossain Adib, Mohammed Aman Bhuiyan, Muhammad Rafsan Kabir, Moshiur Farazi, Shafin Rahman and Nabeel Mohammed},
-  booktitle={Proceedings of the ACS/IEEE International Conference on Computer Systems and Applications (AICCSA)},
-  year={2025},
-  institution = {North South University and University of Doha for Science and Technology}
+@misc{bhuiyan2025zprunerposttrainingpruninglarge,
+      title={Z-Pruner: Post-Training Pruning of Large Language Models for Efficiency without Retraining}, 
+      author={Samiul Basir Bhuiyan and Md. Sazzad Hossain Adib and Mohammed Aman Bhuiyan and Muhammad Rafsan Kabir and Moshiur Farazi and Shafin Rahman and Nabeel Mohammed},
+      year={2025},
+      eprint={2508.15828},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2508.15828}, 
 }
 ```
 
