@@ -9,8 +9,6 @@ Z-Pruner: Post-Training Pruning of Large Language Models for Efficiency without 
 Accepted at IEEE AICCSA 2025
 </p>
 
-📄 [Read the Paper on arXiv](https://arxiv.org/abs/2508.15828)
-
 
 ![hippo](https://github.com/sazzadadib/Z-Pruner/blob/main/Arc%20Design.gif)
 <figcaption style="color: red; font-size: smaller;">This figure illustrates the overall method of our pruning technique</figcaption>
